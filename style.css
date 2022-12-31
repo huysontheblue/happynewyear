@@ -28,7 +28,7 @@ section {
 }
 
 .content h2 {
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 2px rgb(66, 211, 61);
     color: transparent;
     font-size: 8em;
     line-height: .9em;
@@ -37,21 +37,6 @@ section {
 .content h2 c {
     color: #fff;
     -webkit-text-stroke: 0 #fff;
-}
-
-.logo {
-    padding-top: 30vh;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-}
-
-.logo img {
-    max-width: 100px;
-    opacity: .9;
-    mix-blend-mode: overlay;
 }
 
 ::-webkit-scrollbar {
