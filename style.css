@@ -39,6 +39,13 @@ section {
     -webkit-text-stroke: 0 #fff;
 }
 
+.content h2 p {
+    -webkit-text-stroke: 1px rgb(134, 139, 218);
+    color: transparent;
+    font-size: 50px;
+    line-height: .9em;
+}
+
 .logo {
     padding-top: 30vh;
     z-index: 1;
