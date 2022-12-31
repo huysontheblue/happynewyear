@@ -39,10 +39,21 @@ section {
     -webkit-text-stroke: 0 #fff;
 }
 
-::-webkit-scrollbar {
-    width: 0;
+.logo {
+    padding-top: 30vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
 }
 
-audio {
-    height: 1000px;
+.logo img {
+    max-width: 100px;
+    opacity: .9;
+    mix-blend-mode: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 0;
 }
