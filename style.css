@@ -49,3 +49,7 @@ section {
 ::-webkit-scrollbar {
     width: 0;
 }
+
+audio {
+    height: 1000px;
+}
